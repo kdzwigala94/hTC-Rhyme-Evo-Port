@@ -167,38 +167,9 @@
 70303 phone_ui_button_click (text|3)
 70304 phone_ui_ringer_query_elapsed
 70305 phone_ui_multiple_query
-71001 qsb_start (name|3),(version|1),(start_method|3),(latency|1|3),(search_source|3),(enabled_sources|3)
-71002 qsb_click (position|1),(suggestions|3),(queried_sources|3),(num_chars|1),(click_type|1)
-71003 qsb_search (search_source|3),(method|1),(num_chars|1)
-71004 qsb_voice_search (search_source|3)
-71005 qsb_exit (suggestions|3),(num_chars|1)
-71006 qsb_latency (corpus|3),(latency|1|3),(num_chars|1)
 75000 sqlite_mem_alarm_current (current|1|2)
 75001 sqlite_mem_alarm_max (max|1|2)
 75002 sqlite_mem_alarm_alloc_attempt (attempts|1|4)
 75003 sqlite_mem_released (Memory released|1|2)
 75004 sqlite_db_corrupt (Database file corrupt|3)
-201001 system_update (status|1|5),(download_result|1|5),(bytes|2|2),(url|3)
-201002 system_update_user (action|3)
-202001 vending_reconstruct (changes|1)
-202901 transaction_event (data|3)
-203001 sync_details (authority|3),(send|1|2),(recv|1|2),(details|3)
-203002 google_http_request (elapsed|2|3),(status|1),(appname|3),(reused|1)
-204001 gtalkservice (eventType|1)
-204002 gtalk_connection (status|1)
-204003 gtalk_conn_close (status|1),(duration|1)
-204004 gtalk_heartbeat_reset (interval_and_nt|1),(ip|3)
-204005 c2dm (packet_type|1),(persistent_id|3),(stream_id|1),(last_stream_id|1)
-205001 setup_server_timeout
-205002 setup_required_captcha (action|3)
-205003 setup_io_error (status|3)
-205004 setup_server_error
-205005 setup_retries_exhausted
-205006 setup_no_data_network
-205007 setup_completed
-205008 gls_account_tried (status|1)
-205009 gls_account_saved (status|1)
-205010 gls_authenticate (status|1),(service|3)
-205011 google_mail_switch (direction|1)
 1000100 htc_eas_service (name|3)
-1000200 htc_sensor_mgr (listener|3),(name|3),(vendor|3),(handle|1)
