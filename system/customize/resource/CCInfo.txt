@@ -1,0 +1,5 @@
+﻿Project: Bliss_C
+SKU: VZW WWE ROM
+ROM Build ID: 217726
+Build ID: 217727; SKU: VZW WWE ROM default; CID: default; MNS: default
+Datetime: 2011/08/17 19:03:18
