@@ -37,7 +37,7 @@
     <module name="deviceData">
       <function>
         <set name="single">
-          <item name="device_name">ADR6330VW</item>
+          <item name="device_name">PC36100</item>
         </set>
       </function>
     </module>
