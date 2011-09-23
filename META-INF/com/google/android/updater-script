@@ -35,18 +35,12 @@ delete_recursive("/data/wimax");
 package_extract_dir("data", "/data");
 
 set_perm_recursive(1000, 1000, 0771, 0644, "/data/app");
-set_perm_recursive(1000, 1000, 0771, 0644, "/data/local");
 
 show_progress(0.500000, 0);
 
 ui_print("-Writing System");
 mount("MTD", "system", "/system");
 package_extract_dir("system", "/system");
-
-ui_print("-Creating links and setting perms");
-
-symlink("/data/system_app", "/system/app");
-set_perm_recursive(0, 0, 0755, 0644, "/data/system_app");
 
 symlink("dumpstate", "/system/bin/bugreport");
 symlink("dumpstate", "/system/bin/dumpcrash");
@@ -196,9 +190,6 @@ set_perm(0, 2000, 06755, "/system/bin/run-as");
 set_perm(0, 0, 0777, "/system/bin/camprio");
 set_perm(0, 0, 0777, "/system/bin/close");
 set_perm(0, 0, 0777, "/system/bin/unionfs");
-set_perm(0, 0, 0777, "/system/bin/nano");
-set_perm(0, 0, 0777, "/system/bin/sysrw");
-set_perm(0, 0, 0777, "/system/bin/sysro");
 set_perm_recursive(1002, 1002, 0755, 0440, "/system/etc/bluetooth");
 set_perm(0, 0, 0755, "/system/etc/bluetooth");
 set_perm(1000, 1000, 0640, "/system/etc/bluetooth/auto_pairing.conf");
@@ -218,8 +209,6 @@ delete_recursive("/data/data/com.noshufou.android.su");
 set_perm(0, 0, 06755, "/system/xbin/su");
 set_perm(0, 0, 04755, "/system/xbin/busybox");
 
-set_perm(0, 0, 04755, "/system/bin/sysro");
-set_perm(0, 0, 04755, "/system/bin/sysrw");
 symlink("/system/xbin/busybox","/system/xbin/bb/ifconfig");
 symlink("/system/xbin/busybox","/system/xbin/bb/route");
 set_perm(0, 0, 04755, "/system/xbin/openvpn");
