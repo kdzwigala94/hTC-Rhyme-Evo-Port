@@ -4,33 +4,9 @@
     <module name="locale">
       <function>
         <set name="single">
-          <item name="total_list">en_US;es_US;cs_US;da_US;de_US;el_US;fr_US;hr_US;it_US;hu_US;nl_US;nb_US;pl_US;pt_US;ru_US;ro_US;sk_US;fi_US;sv_US;vi_US;tr_US;th_US;ko_US;ja_US;zh_CN;zh_TW;</item>
+          <item name="total_list">en_US;es_US;</item>
           <item type="boolean" name="en_US">yes</item>
           <item type="boolean" name="es_US">yes</item>
-          <item type="boolean" name="cs_US">yes</item>
-          <item type="boolean" name="da_US">yes</item>
-          <item type="boolean" name="de_US">yes</item>
-          <item type="boolean" name="el_US">yes</item>
-          <item type="boolean" name="fr_US">yes</item>
-          <item type="boolean" name="hr_US">yes</item>
-          <item type="boolean" name="it_US">yes</item>
-          <item type="boolean" name="hu_US">yes</item>
-          <item type="boolean" name="nl_US">yes</item>
-          <item type="boolean" name="nb_US">yes</item>
-          <item type="boolean" name="pl_US">yes</item>
-          <item type="boolean" name="pt_US">yes</item>
-          <item type="boolean" name="ru_US">yes</item>
-          <item type="boolean" name="ro_US">yes</item>
-          <item type="boolean" name="sk_US">yes</item>
-          <item type="boolean" name="fi_US">yes</item>
-          <item type="boolean" name="sv_US">yes</item>
-          <item type="boolean" name="vi_US">yes</item>
-          <item type="boolean" name="tr_US">yes</item>
-          <item type="boolean" name="th_US">yes</item>
-          <item type="boolean" name="ko_US">yes</item>
-          <item type="boolean" name="ja_US">yes</item>
-          <item type="boolean" name="zh_CN">yes</item>
-          <item type="boolean" name="zh_TW">yes</item>
         </set>
       </function>
     </module>
@@ -52,31 +28,6 @@
       <function name="IME_language_set">
         <set name="single">
           <item type="boolean" name="English">yes</item>
-          <item type="boolean" name="German">yes</item>
-          <item type="boolean" name="France">yes</item>
-          <item type="boolean" name="Italian">yes</item>
-          <item type="boolean" name="Spanish">yes</item>
-          <item type="boolean" name="Russian">yes</item>
-          <item type="boolean" name="Czech">yes</item>
-          <item type="boolean" name="Danish">yes</item>
-          <item type="boolean" name="Swedish">yes</item>
-          <item type="boolean" name="Norwegian">yes</item>
-          <item type="boolean" name="Dutch">yes</item>
-          <item type="boolean" name="Polish">yes</item>
-          <item type="boolean" name="Portugal">yes</item>
-          <item type="boolean" name="Greek">yes</item>
-          <item type="boolean" name="Turkish">yes</item>
-          <item type="boolean" name="Finnish">yes</item>
-          <item type="boolean" name="Hungarian">yes</item>
-          <item type="boolean" name="Romanian">yes</item>
-          <item type="boolean" name="Slovak">yes</item>
-          <item type="boolean" name="Croatian">yes</item>
-          <item type="boolean" name="Slovenian">yes</item>
-          <item type="boolean" name="Serbian">yes</item>
-          <item type="boolean" name="Bulgarian">yes</item>
-          <item type="boolean" name="Estonian">yes</item>
-          <item type="boolean" name="Latvian">yes</item>
-          <item type="boolean" name="Lithuanian">yes</item>
         </set>
       </function>
       <function name="IME_sip_set">
@@ -226,7 +177,7 @@
       <function>
         <set name="single">
           <item name="phone_finder_visibility">false</item>
-          <item name="hardware_version">0001</item>
+          <item name="hardware_version">Meh who gives a what!</item>
         </set>
       </function>
     </module>
